@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "mytestbuckforyoutube"
+  bucket = "$you_bucket_name"
   acl    = "private"
 
 
